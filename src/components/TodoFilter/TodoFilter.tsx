@@ -3,7 +3,7 @@ import { Filtered } from '../../types/Filetered';
 type Props = {
   query: string;
   setQuery: (query: string) => void;
-  selectedOption: string;
+  selectedOption: Filtered;
   handleSetOption: (option: Filtered) => void;
 };
 
